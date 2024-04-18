@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('heartbg.gif');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .countdown {
+    font-size: 8em; /* Make the countdown big */
+    color: #fff; /* Text color */
+    text-shadow: 0 0 10px #fff, 0 0 20px #00bcd4, 0 0 30px #00bcd4, 0 0 40px #00bcd4, 0 0 50px #00bcd4, 0 0 60px #00bcd4, 0 0 70px #00bcd4; /* Glowing effect */
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .message {
+    display: none;
+    text-align: center;
+    background-color: rgba(32, 24, 24, 0.747); /* Semi-transparent white background */
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(69, 5, 75, 0.425); /* Shadow effect */
+    
+  }
+  
+  .message p {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #d1cfcf; /* Text color */
+    text-shadow: 1px 1px 5px rgba(120, 151, 165, 0.514);
+    transition: background-color 0.3s ease;
+  }
+  
+  button#okBtn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#okBtn:hover {
+    background-color: #45a049;
+  }
+  
+  button#okBtn span {
+    font-size: 0.8em;
+    margin-left: 5px;
+  }
+  

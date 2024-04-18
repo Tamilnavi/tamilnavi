@@ -1,0 +1,65 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-image: url('heartbg.gif');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .blur-container {
+    
+    
+    backdrop-filter: blur(5px); /* Adjust the blur intensity */
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .container {
+    background-color: rgba(0, 0, 0, 0.623); /* Semi-transparent white background for better readability */
+    padding: 20px; /* Adjust as needed */
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(183, 23, 189, 0.699);
+     /* Adjust as needed */
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .center {
+    font-size: 3em;
+    color: rgb(233, 232, 173); 
+    text-shadow: 1px 1px 9px rgb(0, 255, 157);/* Adjust font size as needed */
+  }
+  #txt1
+  {
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  
+  button {
+    margin-top: 20px; /* Adjust spacing as needed */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  
