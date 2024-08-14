@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-position: center;
+    background-color: black;
     font-family: Arial, sans-serif;
     background-image: url('heartbg.gif');
     background-size: cover; /* Adjust as needed */
